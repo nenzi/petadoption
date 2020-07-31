@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <div id="nav">
-      <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-    OKEBUGWU CHINONSO TONY
-  </a>
-  <router-link to="/">Home</router-link> |
+      <nav class="navbar fixed-top navbar-light bg-light">
+     <a class="navbar-brand" href="#">
+     <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      OKEBUGWU CHINONSO TONY
+     </a>
+      <router-link to="/">Home</router-link> |
       <router-link to="/about">Personal Info</router-link> |
       <router-link to="/Dogs">Experience</router-link> |
       <router-link to="/Cats">Skills</router-link> |
       <router-link to="/Pets">Pets</router-link> |
-</nav>
+      </nav>
     </div>
     <router-view/>
   </div>
@@ -28,9 +28,9 @@
 
 #nav {
   padding: 30px;
-  background-color: #a8d3bb;
 
   a {
+    font-family: "Helvetica Neue", Arial;
     font-weight: bold;
     color: #2c3e50;
 
